@@ -1,0 +1,37 @@
+{
+  "name": "react-babel",
+  "version": "0.0.2",
+  "description": "A boilerplate for getting a web application off the ground using React and Babel for JSX.",
+  "main": "server.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "react": "15.x",
+    "react-dom": "^15.x",
+    "deck.gl": "^4.1.5",
+    "luma.gl": "^4.0.5",
+    "r2": "2.x",
+    "react-map-gl": "3.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "latest",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-env": "latest",
+    "babel-plugin-transform-object-rest-spread": "latest",
+    "babel-preset-react": "latest",
+    "webpack": "3.x",
+    "webpack-dev-server": "2.x"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "react"
+  ]
+}
